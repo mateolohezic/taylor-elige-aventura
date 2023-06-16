@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Pistilli Roman';
+    src: url('./assets/Pistilli-Roman.otf') format('opentype');
+}
+
+/* 
+font-family: 'Pistilli Roman', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; 
+
+*/
+
+body, html{
+    background-color: #242424;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #E3E3E3;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+button {
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: none;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.form-control.is-invalid:focus {
+    box-shadow: none;
+    border-color: none;
+}
+
+@media (max-width: 576px){
+
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+
+@media (min-width: 1200px){
+
+}
