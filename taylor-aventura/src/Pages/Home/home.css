@@ -60,6 +60,7 @@
 .botonEmpezar{
     text-align: center;
     margin-top: 4rem;
+    margin-bottom: 5rem;
 }
 
 .botonEmpezar button{
@@ -80,6 +81,7 @@
 .botonesElegir {
     text-align: center;
     margin-top: 4rem;
+    margin-bottom: 5rem;
     display: flex;
     gap: 100px;
     justify-content: center;
