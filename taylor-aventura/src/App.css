@@ -11,7 +11,7 @@ font-family: 'Poppins', sans-serif;
 */
 
 body, html{
-    background-color: #242424;
+    background-color: rgb(28, 28, 28);
 }
 
 *{
@@ -19,7 +19,7 @@ body, html{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: #E3E3E3;
+    color: #ffffff;
 }
 
 p{

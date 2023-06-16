@@ -1,0 +1,32 @@
+.contenedorComun{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-inline: 2rem;
+    text-align: center;
+}
+
+.Hoja1 p{
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.portadaHoja2{
+    width: 30%;
+    margin-bottom: 3rem;
+}
+
+.HojaComun p{
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.FinPerdiste{
+    width: 50%;
+    font-size: 4rem;
+    padding-top: 3rem;
+    font-family: 'Pistilli Roman', sans-serif;
+}

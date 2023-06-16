@@ -75,3 +75,26 @@
     background-color: #4c4c4c;
     transform: scale(1.1);
 }
+
+
+.botonesElegir {
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.botonesElegir button{
+    width: 150px;
+    height: 50px;
+    background-color: #3A3A3A;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all .3s ease;
+}
+
+.botonesElegir button:hover{
+    background-color: #4c4c4c;
+    transform: scale(1.1);
+}
