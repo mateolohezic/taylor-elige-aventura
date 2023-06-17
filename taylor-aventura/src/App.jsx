@@ -52,6 +52,7 @@ import Hoja34 from './Pages/Hoja34/Hoja34';
 import Final from './Pages/Final/Final';
 import Info from './Pages/Info/Info';
 import Hoja75 from './Pages/Hoja7medio/Hoja7medio';
+import Hoja125 from './Pages/Hoja12medio/Hoja12medio';
 
 function App() {
 
@@ -77,6 +78,7 @@ function App() {
         <Route path="/Hoja-10-Final" element={<Hoja10Final/>} />
         <Route path="/Hoja-11" element={<Hoja11/>} />
         <Route path="/Hoja-12" element={<Hoja12/>} />
+        <Route path="/Hoja-12-5" element={<Hoja125/>} />
         <Route path="/Hoja-12-Final" element={<Hoja12Final/>} />
         <Route path="/Hoja-13" element={<Hoja13/>} />
         <Route path="/Hoja-14" element={<Hoja14/>} />
