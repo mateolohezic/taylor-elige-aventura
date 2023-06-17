@@ -1,0 +1,32 @@
+.contenedorInformación{
+    font-size: 2rem;
+    line-height: 2.3rem;
+    text-align: center;
+    padding-inline: 2rem;
+}
+
+.contenedorInformación div{
+    margin-top: 2rem;
+}
+
+.disclaimer{
+    font-size: 1rem;
+    text-align: center;
+    padding-inline: 2rem;
+    color: rgb(255,255,255,0.5);
+}
+
+.contenedorInformación button{
+    margin-top: 2rem;
+    width: 150px;
+    height: 50px;
+    background-color: #3A3A3A;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all .3s ease;
+}
+
+.contenedorInformación button:hover{
+    background-color: #4c4c4c;
+    transform: scale(1.1);
+}

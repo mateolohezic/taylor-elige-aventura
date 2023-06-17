@@ -7,8 +7,11 @@ function Inicio() {
     const { register, handleSubmit, formState: { errors } } = useForm({ mode: "onBlur" });
 
     const onSubmit = async (data) => {
-        localStorage.setItem("name", data.name)
-        window.location.replace("/Hoja-1")
+        const trimmedName = data.name.trim();
+        const formattedName = trimmedName.toLowerCase().replace(/^\w/, (c) => c.toUpperCase());
+
+        localStorage.setItem("name", formattedName);
+        window.location.replace("/Hoja-1");
     };
 
     const name = localStorage.getItem("name")

@@ -5,8 +5,8 @@ function Hoja3() {
     <>
       <div className='contenedorComun Hoja1'>
         <div>
-          <p>Tengo miedo. Me recomendaron usar muchos links diferentes para poder tener más posibilidades.</p>
-          <p>¡No se que hacer!</p>
+          <p>- Tengo miedo. Me recomendaron usar muchos links diferentes para poder tener más posibilidades.</p>
+          <p>- ¡No se que hacer!</p>
         </div>
         <div className='botonesElegir'>
           <a href="/Hoja-4"><button type='button'>USAR UNO</button></a>

@@ -18,9 +18,9 @@ function Hoja4() {
       <div className='contenedorComun HojaComun'>
         <img src={portada} className="portadaHoja2" alt="The Eras Tour Argentina" />
         <div>
-          <p>¡Estoy adentro!</p>
-          <p>Pero solo quedan entradas para Campo Trasero, o Sívori Alta.</p>
-          <p>No son mis favoritas pero me conformo.</p>
+          <p>- ¡Estoy adentro!</p>
+          <p>- Pero solo quedan entradas para Campo Trasero, o Sívori Alta.</p>
+          <p>- No son mis favoritas pero me conformo.</p>
         </div>
         <div className='botonesElegir'>
           <button type='button' onClick={platea}>PLATEA</button>

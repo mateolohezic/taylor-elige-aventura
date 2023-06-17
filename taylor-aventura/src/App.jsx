@@ -28,6 +28,29 @@ import Hoja17 from './Pages/Hoja17/Hoja17';
 import Hoja18 from './Pages/Hoja18/Hoja18';
 import Hoja19 from './Pages/Hoja19/Hoja19';
 import Hoja19Final from './Pages/Hoja19Final/Hoja19Final';
+import Hoja20 from './Pages/Hoja20/Hoja20';
+import Hoja20Final from './Pages/Hoja20Final/Hoja20Final';
+import Hoja21 from './Pages/Hoja21/Hoja21';
+import Hoja22 from './Pages/Hoja22/Hoja22';
+import Hoja23 from './Pages/Hoja23/Hoja23';
+import Hoja23Final from './Pages/Hoja23Final/Hoja23Final';
+import Hoja24 from './Pages/Hoja24/Hoja24';
+import Hoja25 from './Pages/Hoja25/Hoja25';
+import Hoja26 from './Pages/Hoja26/Hoja26';
+import Hoja26Final from './Pages/Hoja26Final/Hoja26Final';
+import Hoja27 from './Pages/Hoja27/Hoja27';
+import Hoja275 from './Pages/Hoja27-5/Hoja27-5';
+import Hoja28 from './Pages/Hoja28/Hoja28';
+import Hoja28Final from './Pages/Hoja28Final/Hoja28Final';
+import Hoja29 from './Pages/Hoja29/Hoja29';
+import Hoja29Final from './Pages/Hoja29Final/Hoja29Final';
+import Hoja30 from './Pages/Hoja30/Hoja30';
+import Hoja31 from './Pages/Hoja31/Hoja31';
+import Hoja32 from './Pages/Hoja32/Hoja32';
+import Hoja33 from './Pages/Hoja33/Hoja33';
+import Hoja34 from './Pages/Hoja34/Hoja34';
+import Final from './Pages/Final/Final';
+import Info from './Pages/Info/Info';
 
 function App() {
 
@@ -61,6 +84,29 @@ function App() {
         <Route path="/Hoja-18" element={<Hoja18/>} />
         <Route path="/Hoja-19" element={<Hoja19/>} />
         <Route path="/Hoja-19-Final" element={<Hoja19Final/>} />
+        <Route path="/Hoja-20" element={<Hoja20/>} />
+        <Route path="/Hoja-20-Final" element={<Hoja20Final/>} />
+        <Route path="/Hoja-21" element={<Hoja21/>} />
+        <Route path="/Hoja-22" element={<Hoja22/>} />
+        <Route path="/Hoja-23" element={<Hoja23/>} />
+        <Route path="/Hoja-23-Final" element={<Hoja23Final/>} />
+        <Route path="/Hoja-24" element={<Hoja24/>} />
+        <Route path="/Hoja-25" element={<Hoja25/>} />
+        <Route path="/Hoja-26" element={<Hoja26/>} />
+        <Route path="/Hoja-26-Final" element={<Hoja26Final/>} />
+        <Route path="/Hoja-27" element={<Hoja27/>} />
+        <Route path="/Hoja-27-5" element={<Hoja275/>} />
+        <Route path="/Hoja-28" element={<Hoja28/>} />
+        <Route path="/Hoja-28-Final" element={<Hoja28Final/>} />
+        <Route path="/Hoja-29" element={<Hoja29/>} />
+        <Route path="/Hoja-29-Final" element={<Hoja29Final/>} />
+        <Route path="/Hoja-30" element={<Hoja30/>} />
+        <Route path="/Hoja-31" element={<Hoja31/>} />
+        <Route path="/Hoja-32" element={<Hoja32/>} />
+        <Route path="/Hoja-33" element={<Hoja33/>} />
+        <Route path="/Hoja-34" element={<Hoja34/>} />
+        <Route path="/Fin" element={<Final/>} />
+        <Route path="/Info" element={<Info/>} />
       </Routes>
     </>
   )

@@ -1,15 +1,15 @@
 import React from 'react'
-import portada from '../../assets/Hoja19Final.jpg'
+import portada from '../../assets/Hoja23Final.jpg'
 
-function Hoja19Final() {
+function Hoja23Final() {
   return (
     <>
       <div className='contenedorComun HojaComun'>
         <img src={portada} className="portadaHoja2" alt="The Eras Tour Argentina" />
         <div>
-          <p>Creo que no hace falta decirlo.</p>
-          <p>No se si es peor la humillación de que te haya sacado la seguridad, o de haber mojado a los que estaban a tu lado.</p>
-          <p>Por favor vayan al baño antes.</p>
+          <p>Llamaron a seguridad.</p>
+          <p>Te procesaron por allanamiento a la propiedad ajena y evasión de impuestos.</p>
+          <p>Hubieras hecho la fila como todas las demás.</p>
           <span className='FinPerdiste'>FIN</span>
         </div>
         <div className='botonEmpezar'><a href="/"><button type='button'>INICIO</button></a></div>
@@ -18,4 +18,4 @@ function Hoja19Final() {
   )
 }
 
-export default Hoja19Final
+export default Hoja23Final

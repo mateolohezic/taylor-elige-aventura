@@ -7,9 +7,9 @@ function Hoja2() {
       <div className='contenedorComun HojaComun'>
         <img src={portada} className="portadaHoja2" alt="The Eras Tour Argentina" />
         <div>
-          <p>¡Finalmente viene a Argentina!</p>
-          <p>Mañana debo hacer la fila a primera hora.</p>
-          <p>Definitivamente no podre dormir.</p>
+          <p>- ¡Finalmente viene a Argentina!</p>
+          <p>- Mañana debo hacer la fila a primera hora.</p>
+          <p>- Definitivamente no podre dormir.</p>
         </div>
         <div className='botonEmpezar'><a href="/Hoja-3"><button type='button'>SIGUIENTE</button></a></div>
       </div>

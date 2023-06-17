@@ -9,7 +9,7 @@ function Hoja10Final() {
         <div>
           <p>Intentaste abrirte paso entre las carpas, pero si dieron cuenta.</p>
           <p>Una de ellas se acerco y te atacó con gas pimienta.</p>
-          <p>Estaras hospitalizada por un tiempo. No podras ir.</p>
+          <p>Estarás hospitalizada por un tiempo. No podrás ir.</p>
           <span className='FinPerdiste'>FIN</span>
           <span className="aclaracionFinal">(Tu atacante si vivió el show)</span>
         </div>

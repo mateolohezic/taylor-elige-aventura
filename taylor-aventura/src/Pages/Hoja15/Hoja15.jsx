@@ -5,7 +5,7 @@ function Hoja15() {
     <>
       <div className='contenedorComun Hoja1'>
         <div>
-          <p>No sabes a donde te devolvio el pogo.</p>
+          <p>No sabes a donde te devolvió el pogo.</p>
           <p>Te das la vuelta, y te das cuenta donde estas.</p>
           <p>Estas al frente del escenario.</p>
         </div>
