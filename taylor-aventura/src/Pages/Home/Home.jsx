@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import icono from '../../assets/icono.png'
+import icono from './icono.png'
 
 function Home() {
   return (
