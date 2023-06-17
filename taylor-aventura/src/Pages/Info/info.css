@@ -30,3 +30,36 @@
     background-color: #4c4c4c;
     transform: scale(1.1);
 }
+
+@media (max-width: 576px){
+
+    .correoInfo{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .correoInfo{
+        font-size: 2rem;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+    .correoInfo{
+        font-size: 2rem;
+    }
+    
+}
+
+@media (min-width: 1200px){
+
+    .correoInfo{
+        font-size: 2rem;
+    }
+    
+}

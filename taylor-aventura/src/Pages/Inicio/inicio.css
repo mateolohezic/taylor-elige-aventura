@@ -44,9 +44,7 @@
 
 .labelIngresarNombra{
     margin-top: 10rem;
-    padding-inline: 2rem;
     text-align: center;
-    font-size: 3rem;
 }
 
 .formNombre{
@@ -63,11 +61,65 @@
 .form-group{
     margin: auto;
     margin-top: 1rem;
-    width: 30%;
 }
 
 .errorInput{
     color: rgb(187, 55, 55,0.8);
     margin-top: 0.5rem;
     text-align: start;
+}
+
+@media (max-width: 576px){
+
+    .labelIngresarNombra{
+        padding-inline: 1.3rem;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .form-group{
+        width: 70%;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .labelIngresarNombra{
+        padding-inline: 2rem;
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .form-group{
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+    .labelIngresarNombra{
+        padding-inline: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-group{
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 1200px){
+
+    .labelIngresarNombra{
+        padding-inline: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-group{
+        width: 30%;
+    }
+    
+    
 }

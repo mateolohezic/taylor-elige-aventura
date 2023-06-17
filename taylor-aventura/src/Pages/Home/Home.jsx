@@ -14,6 +14,8 @@ function Home() {
     <p className='parrafoHome'>Vive la experiencia de The Eras Tour Argentina en esta apasionante historia llena de diversión, suspenso, drama, y amor.</p>
     <div className='iconoHome'><img src={icono} alt="Icono elige tu propia aventura Taylor Swift" /></div>
     <div className='botonEmpezar'><a href="/Inicio"><button>COMENZAR</button></a></div>
+    <div className='botonEmpezar'><a href="/Info"><button>INFO</button></a></div>
+    <p className='fanMade'>FAN MADE</p>
     </>
   )
 }

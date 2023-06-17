@@ -1,27 +1,23 @@
 .contenedorComun{
     padding-top: 4rem;
     padding-bottom: 4rem;
-    padding-inline: 2rem;
+    padding-inline: 1.5rem;
     text-align: center;
 }
 
 .Hoja1 p{
-    width: 50%;
     margin: auto;
-    font-size: 2rem;
-    line-height: 2.3rem;
     margin-bottom: 1rem;
 }
 
 .portadaHoja2{
-    width: 30%;
     margin-bottom: 3rem;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+    border-radius: 16px;
 }
 
 .HojaComun p{
-    width: 50%;
     margin: auto;
-    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -39,10 +35,113 @@
 }
 
 .timelapse{
-    font-size: 4rem;
     background-color: #3A3A3A;
-    padding-inline: 2rem;
-    padding-block: 1rem;
     border-radius: 3px;
     font-family: 'Pistilli Roman', sans-serif;
+}
+
+@media (max-width: 576px){
+
+    .Hoja1 p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    .HojaComun p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    .portadaHoja2{
+        width: 90%;
+    }
+
+    .timelapse{
+        font-size: 1rem;
+        line-height: 3rem;
+        padding-inline: 1rem;
+        padding-block: 1rem;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .Hoja1 p{
+        width: 90%;
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .HojaComun p{
+        width: 90%;
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .portadaHoja2{
+        width: 70%;
+    }
+
+    .timelapse{
+        text-align: center;
+        font-size: 2rem;
+        padding-inline: 2rem;
+        padding-block: 1rem;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+    .Hoja1 p{
+        width: 70%;
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .HojaComun p{
+        width: 70%;
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .portadaHoja2{
+        width: 50%;
+    }
+
+    .timelapse{
+        font-size: 3rem;
+        padding-inline: 2rem;
+        padding-block: 1rem;
+    }
+    
+}
+
+@media (min-width: 1200px){
+
+    .Hoja1 p{
+        width: 50%;
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .HojaComun p{
+        width: 50%;
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .portadaHoja2{
+        width: 30%;
+    }
+
+    .timelapse{
+        font-size: 4rem;
+        padding-inline: 2rem;
+        padding-block: 1rem;
+    }
+    
 }

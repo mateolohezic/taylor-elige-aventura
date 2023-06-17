@@ -11,8 +11,7 @@ function Hoja7() {
         </div>
         <div className='botonesElegir'>
           <a href="/Hoja-8"><button type='button'>IR TEMPRANO</button></a>
-          <a href="/Hoja-7-1"><button type='button'>IR PUNTUAL</button></a> 
-          CONECTAR EL PUNTUAL
+          <a href="/Hoja-7-5"><button type='button'>IR PUNTUAL</button></a> 
         </div>
       </div>
     </>
